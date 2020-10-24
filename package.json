@@ -1,0 +1,34 @@
+{
+  "name": "@smyd/cart-icon",
+  "version": "1.0.0",
+  "description": "cart icon with badge to be used along with app-cart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stylemydomain/cart-icon.git"
+  },
+  "author": "Ben Forrester",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stylemydomain/cart-icon/issues"
+  },
+  "homepage": "https://github.com/stylemydomain/cart-icon#readme",
+  "dependencies": {
+    "@polymer/paper-badge": "^3.1.0",
+    "@polymer/paper-icon-button": "^3.0.2",
+    "@polymer/polymer": "^3.0.0",
+    "@smyd/app-functions": "^1.0.7",
+    "@smyd/app-shared": "^1.0.3"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.1.0",
+    "@polymer/test-fixture": "^4.0.2",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "wct-mocha": "^1.0.1"
+  }
+}
